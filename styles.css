@@ -139,10 +139,13 @@ svg {
   font-size: 1.2rem;
 }
 
-nav svg,
-.help svg {
+nav svg {
   height: 1.5rem;
   width: 1.5rem;
+}
+
+.links {
+  margin-bottom: 40px;
 }
 
 
