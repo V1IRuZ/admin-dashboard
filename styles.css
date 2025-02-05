@@ -39,3 +39,37 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  /*Exterior background color */
+
+  body {
+    background-color: #131212;
+  }
+
+  /* Main dashboard layout */
+
+  .dashboard {
+    margin: 0 auto;
+    width: clamp(50%, 75%, 1440px);
+    height: 100vh;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+  }
+
+  header {
+    background-color: #f8f8f8;
+    grid-column: 2/3;
+  }
+
+  aside {
+    background-color: #3882f6;
+    grid-row: 1/3;
+  }
+
+  main {
+    background-color: #e0e0e0;
+  }
+
+
