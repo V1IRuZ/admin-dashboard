@@ -92,6 +92,52 @@ main {
   background-color: #e0e0e0;
 }
 
+/* Header items */
+
+header svg {
+  fill: #181818;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search,
+.account {
+  display: flex;
+  align-items: center;
+  margin: 1em 3em;
+  gap: 1.5em;
+}
+
+.search {
+ flex: 2;
+}
+
+.account {
+  justify-content: right;
+  flex: 1;
+}
+
+input[type="search"] {
+  background-color: #cad3e0;
+  outline: none;
+  border-style: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 75%;
+}
+
+.account img {
+  border-radius: 50%;
+  background-color: #f05924;
+  width: 50px;
+  height: 50px;
+}
+
 /* Sidebar items */
 
 aside a {
