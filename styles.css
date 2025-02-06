@@ -47,6 +47,8 @@ h1, h2, h3, h4, h5, h6 {
   --system-ui: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --sidebar-white: #f9faf8;
   --blue: #3882f6;
+  --main-para-color: #747474;
+  --main-h2-color: #171717;
 }
 
 /*Exterior background color */
@@ -80,6 +82,8 @@ header {
   grid-column: 2/3;
   box-shadow: 0 6px 5px -2px rgb(197, 197, 197);
   z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 aside {
@@ -93,6 +97,8 @@ aside {
 
 main {
   background-color: #e0e0e0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
 /* Header items */
@@ -228,5 +234,51 @@ nav svg {
   margin-bottom: 40px;
 }
 
+/* main content */
+
+.projects > div {
+  display: grid;
+  grid-template: repeat(3, 200px) / repeat(2, 1fr);
+  gap: 20px;
+  margin: 0 20px;
+}
+
+main h2 {
+  color: var(--main-h2-color);
+  margin: 30px 0 5px 20px;
+  font-size: 1.2rem;
+}
+
+.card {
+  background-color: var(--sidebar-white);
+  padding: 25px 20px;
+  border-radius: 8px;
+  border-left: 8px solid rgb(241, 195, 7);
+  box-shadow: 3px 3px 3px #bbbbbb;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.card h3{
+  font-size: 1.1rem;
+  color: var(--main-h2-color);
+}
+
+.card p {
+  font-size: 1rem;
+  color: var(--main-para-color);
+}
+
+.card .icons {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+}
+
+.card svg {
+  fill: #181818;
+  width: 1.5rem;
+  height: 1.5rem;
+}
 
 
