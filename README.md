@@ -1,5 +1,7 @@
 # admin-dashboard
 
+This ODIN project required creating an admin dashboard design that mostly used a grid layout.
+
 Profile dog image by <a href="https://pixabay.com/users/u_fg0tkeqgiy-26019190/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8679031">Tim</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8679031">Pixabay</a>
 
 Profile penguin image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1295429">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1295429">Pixabay</a>

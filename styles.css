@@ -129,8 +129,7 @@ h2, h3, h4 {
   color: var(--black);
 }
 
-p, 
-a {
+p, a {
   font-family: 'robotoregular', var(--system-ui);
 }
 
@@ -242,8 +241,8 @@ input[type="search"] {
   font-weight: 900;
   background-color: var(--blue);
   border-radius: 30px;
-  height: 40px;
-  width: 100px;
+  height: 2.5em;
+  width: 6.25em;
 }
 
 .buttons a {
@@ -293,7 +292,7 @@ aside a {
 }
 
 .sidebar h2 {
-  color: (var(--white));
+  color: var(--white);
   font-size: 1.2rem;
 }
 
@@ -433,6 +432,7 @@ main h2 {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
+  gap: 15px;
 }
 
 .user-box img {
@@ -448,6 +448,6 @@ main h2 {
 }
 
 .user-box p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--light-grey);
 }
