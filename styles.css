@@ -95,12 +95,11 @@ button a:hover {
   text-decoration: none;
 }
 
-.trending a {
+.trending a:hover {
   text-underline-offset: 2px;
 }
 
 img:hover,
-svg:hover,
 .card h4:hover {
   cursor: pointer;
 }
@@ -113,7 +112,6 @@ svg:hover,
 /* Main dashboard layout */
 
 .dashboard {
-  
   margin: 0 auto;
   width: clamp(900px, 75%, 1440px);
   height: 100vh;
@@ -125,6 +123,10 @@ svg:hover,
 
 h1, h2, h3, h4 {
   font-family: 'robotobold', 'robotoregular', var(--system-ui);
+}
+
+h2, h3, h4 {
+  color: var(--black);
 }
 
 p, 
@@ -159,16 +161,10 @@ main {
 
 /* Header items */
 
-header svg {
+header .svg {
   fill: #181818;
   height: 1.5rem;
   width: 1.5rem;
-}
-
-header svg:hover,
-.account img:hover,
-.account h3:hover {
-  cursor: pointer;
 }
 
 .top-header {
@@ -213,18 +209,18 @@ input[type="search"] {
   padding: 0 20px;
 }
 
-.top-header img,
-.bottom-header img {
+.top-header .profile-pic,
+.bottom-header .profile-pic {
   border-radius: 50%;
   background-color: #f05924;
 }
 
-.account img {
+.account .profile-pic {
   width: 50px;
   height: 50px;
 }
 
-.bottom-header img {
+.bottom-header .profile-pic {
   width: 70px;
   height: 70px;
 }
@@ -274,11 +270,7 @@ aside a {
   font-size: 1.6rem;
 }
 
-svg {
-  fill: var(--white)
-}
-
-.logo svg {
+.logo .svg {
   height: 45px;
   width: 45px;
 }
@@ -301,10 +293,11 @@ svg {
 }
 
 .sidebar h2 {
+  color: (var(--white));
   font-size: 1.2rem;
 }
 
-nav svg {
+nav .svg {
   height: 24px;
   width: 24px;
 }
@@ -358,8 +351,7 @@ main h2 {
   justify-content: right;
 }
 
-.card svg {
-  fill: #181818;
+.card .svg {
   width: 1.5rem;
   height: 1.5rem;
 }
